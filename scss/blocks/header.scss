@@ -1,12 +1,10 @@
 .header {
     &__item_top {
         display: flex;
-        margin-bottom: 116px;
-        margin-top: 110px;
-     
+        align-items: center;
+
         &_left {
-            width: 50%;
-            // margin-right: 93px;
+
             .header-text {
                 color: #535354;
                 font-size: 18px;
@@ -39,11 +37,7 @@
             }
         }
 
-        &_right {
-            width: 50%;
-            background: url(/images/header_card.png) transparent no-repeat center;
-            background-size: contain;
-        }
+        &_right {}
 
 
     }
