@@ -3,7 +3,25 @@
         display: flex;
         align-items: center;
 
+
         &_left {
+            position: relative;
+           
+            &_bg {
+                border-radius: 50%;
+                opacity: 0.5;
+                background: #219EE4;
+                filter: blur(110px);
+                width: 120%;
+                height: 65%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                
+
+            }
 
             .header-text {
                 color: #535354;
@@ -22,6 +40,7 @@
                 font-size: 19px;
                 font-weight: 500;
                 line-height: 19px;
+                cursor: pointer;
 
                 button {
                     width: 50px;
@@ -33,11 +52,18 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    cursor: pointer;
+                   
                 }
             }
         }
 
-        &_right {}
+        &_right {
+            cursor: pointer;
+            img {
+                width: 100%;
+            }
+        }
 
 
     }
@@ -57,7 +83,6 @@
         .first {
             font-size: 35px;
             font-family: 'Bai Jamjuree';
-            margin-bottom: 9px;
             display: block;
         }
 

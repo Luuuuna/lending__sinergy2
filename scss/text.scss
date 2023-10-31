@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 
 h1 {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -12,6 +16,9 @@ h1 {
     color: #222223;
     line-height: 80px; /* 100% */
     letter-spacing: -0.8px;
+}
+h2 {
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .bold {
@@ -22,4 +29,9 @@ h1 {
 .medium {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+@media screen and (max-width: 1440px) {
+    h1{
+        font-size: 8vmin;
+    }
 }
