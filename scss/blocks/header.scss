@@ -107,3 +107,29 @@
         }
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .header {
+        &__item_top {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item_bottom {
+            div {
+                margin-top: 30px;
+            }
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+        }
+    }
+  
+}
+@media screen and (max-width: 500px) {
+    .header {
+        &__item_bottom {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
